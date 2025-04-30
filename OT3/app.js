@@ -80,3 +80,10 @@ let nomesDesafio = ["Caio", "Valeria", "Giulia"]
 for (let desafioNome of nomesDesafio){
     console.log(desafioNome);
 }
+
+for (let i = 0; i <= 100; i++) {
+    if (i === 50) {
+      break;
+    }
+    console.log(i);
+  }
