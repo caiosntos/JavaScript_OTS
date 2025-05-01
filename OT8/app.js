@@ -1,4 +1,4 @@
-let mayvar;
+let myvar;
 
 myvar = 10;
 
