@@ -85,7 +85,7 @@ meuMap.delete("WhyNot");
 console.log(livro.has("Nada Pode me Ferir"))
 
 let colecao = new Map();
-colecao.set("nome", "Alice");
+colecao.set("nome", "Julia");
 colecao.set(42, "A resposta");
 colecao.set(true, "Verdadeiro");
 let obj = { id: 1 };
