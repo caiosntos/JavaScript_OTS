@@ -43,6 +43,7 @@ for...in.*/
 for (let chave in pessoa){
     console.log(`${chave}:${pessoa[chave]}`);
 }
+
 /*Com o loop for...in, passamos por cada propriedade do objeto pessoa,
 imprimindo seu nome e valor.
 Objetos como Referências:
@@ -66,3 +67,38 @@ console.log(Object.keys(pessoa));
 /*Object.keys(pessoa) retorna um array com os nomes das propriedades do
 objeto pessoa.*/
 
+let carro = {
+    marca: 'BMW',
+    modelo: 'M5 F90',
+    ano: 2018
+}
+console.log(carro.modelo);
+
+carro.cor = 'Azul';
+carro.ano = 2022;
+
+console.log(carro.cor, carro.ano);
+
+let calculadora = {
+    soma: function(num1,num2){
+        return num1 + num2;
+    }
+}
+
+let resultado = calculadora.soma(1,2);
+console.log(resultado);
+
+for (let carros in carro){
+    console.log(`${carros}:${carro[carros]}`);
+}
+
+let livro = {
+    titulo: 'Nada pode me ferir',
+    autor: 'David Goggins'
+}
+
+let livroDesafio = livro;
+livroDesafio.titulo = 'Nunca é hora de parar';
+console.log(livro.titulo);
+
+console.log(Object.keys(carro), Object.values(carro));
