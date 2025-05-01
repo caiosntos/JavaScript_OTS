@@ -81,4 +81,3 @@ console.log(minhaFuncao(5));
 console.log(minhaFuncao(5, 3));
 console.log(minhaFuncao(5, 3, 2)); 
 console.log(minhaFuncao());
-console.log(minhaFuncao("null"));
