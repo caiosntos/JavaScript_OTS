@@ -71,11 +71,9 @@ colocamos em um array.*/
 
 
 let livro = new Map();
-
 livro.set("Nunca é hora de parar", "David Goggins");
 livro.set("Nada Pode me Ferir", "David Goggins");
 livro.set("WhyNot", "Russell Westbrook");
-
 console.log(livro.get("Nunca é hora de parar"));
 
 for (let [chave, valor] of livro){
