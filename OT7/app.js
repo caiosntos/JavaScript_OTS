@@ -70,3 +70,30 @@ console.log(chavesArray);
 colocamos em um array.*/
 
 
+let livro = new Map();
+
+livro.set("Nunca é hora de parar", "David Goggins");
+livro.set("Nada Pode me Ferir", "David Goggins");
+livro.set("WhyNot", "Russell Westbrook");
+
+console.log(livro.get("Nunca é hora de parar"));
+
+for (let [chave, valor] of livro){
+    console.log(`${chave}:${valor}`);
+}
+
+console.log(livro.size);
+meuMap.delete("WhyNot");
+console.log(livro.has("Nada Pode me Ferir"))
+
+let colecao = new Map();
+colecao.set("nome", "Alice");
+colecao.set(42, "A resposta");
+colecao.set(true, "Verdadeiro");
+let obj = { id: 1 };
+colecao.set(obj, "Objeto");
+let arr = [1, 2, 3];
+colecao.set(arr, "Array");
+for (let [chave, valor] of colecao.entries()) {
+  console.log("Chave:", chave, "-> Valor:", valor);
+}
