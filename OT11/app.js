@@ -90,5 +90,5 @@ console.log(novaFraseDesafio);
 let carta = "Eae meu amigo, \nTudo certo conitgo?\nEspero que sim.\nVeio por meio desta carta me despedir de você,\nEstarei indo embora de joinville e irei me aventurar em São Paulo!\nFique bem meu amigo, até mais!"; //\n cria uma nova linha. É útil para formatar textos longos ou poesia
 console.log(carta);
 
-let citacaoFamosa = "Como diria a filósofa Ayn Rand: \"O dinheiro não compra felicidade, mas também não compra a infelicidade.\""; //Usamos a barra invertida \ para incluir aspas dentro de uma string sem encerrar a string.
+let citacaoFamosa = "Como diria a filósofa Ayn Rand: \"O dinheiro não compra felicidade, mas também não compra a infelicidade.\""; 
 console.log(citacaoFamosa);
